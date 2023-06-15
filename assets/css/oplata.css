@@ -1,0 +1,40 @@
+html,body{
+    font-family:"Open Sans",Arial,Helvetica,sans-serif;
+}
+#checkout{
+    width:450px;
+    margin:0 auto;
+}
+#checkout_header{
+    padding:0 20px;
+    line-height:50px;
+    border-bottom:1px solid #ccc;
+}
+#checkout_wrapper{
+    background-color:#fff;
+    height:290px;
+}
+#checkout_message{
+    padding:0px 20px;
+    font-size:14px;
+    margin-bottom:18px;
+}
+#checkout_loader{
+    padding:20px;
+    text-align:center;
+    .loader{
+        color:#949494;
+        text-transform:uppercase;
+        margin-bottom:20px;
+    }
+}
+#checkout_button{
+    padding:25px;
+    text-align:center;
+    cursor:pointer;
+    background-color:lightgreen;
+    color:#fff;
+    &:hover{
+        background-color:green;
+    }
+}
